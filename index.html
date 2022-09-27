@@ -1,69 +1,79 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Karan Portfolio</title>
-</head>
-<body>
-    <h2>Components Karan needs in the library</h2>
-    <hr>
-    <h2>@typography</h2>
-    <h1>This is the biggest heading</h1>
-    <h2>Second biggest heading</h2>
-    <p>Normal paragraph text size</p>
-    <small>Even smaller text</small>
-    <hr>
-    <h2>@container</h2>
-    <h3>fluid container</h3>
-    <p>This is a fluid container and will go till the end of the page</p>
-    <h3>center container</h3>
-    <p>This is a centered container and will go till the specified width</p>
-    <hr>
-    <h2>@links</h2>
-    <a href="https://www.google.com">Google</a>
-    <a href="https://www.facebook.com">Facebook</a>
-    <a href="https://www.twitter.com">Twitter</a>
-    <hr>
-    <ul>
-        <li>headings</li>
-        <li>paragraphs</li>
-        <li>reverse ordered lists</li>
-    </ul>
-    <ol>
-        <li>phuket</li>
-        <li>international</li>
-        <li>academy</li>
-    </ol>
-    <nav>
-        <div>My website</div>
-            <ul>
-                <li>Hello</li>
-                <li><a href="https://www.google.com">world</a></li>
-            </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Karan | Portfolio</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navigation container">
+      <div class="nav-brand"><a href="/">KARAN RANA</a></div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link link-active" href="/">HOME</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/projects.html">PROJECTS</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/blogs.html">BLOGS</a>
+        </li>
+      </ul>
     </nav>
-    <hr>
-    <header>
-        <img src="welcome.svg"/>
-        <h1>Heading inside hero</h1>
+
+    <header class="hero">
+      <img class="hero-img" src="welcome.svg" />
+      <h1 class="hero-heading">
+        TO MY<span class="heading-inverted"><i> DOMAIN</i></span>
+      </h1>
     </header>
-    <hr>
-    <section>
-        <p>end to end with little margin on both sides</p>
-        <ul>
-            <li>normal section 
-                <ul><li>heading center</li><li>padding-top and bottom</li></ul>
-            </li>
-            <li>off white section<ul><li>background change</li></ul></li>
-        </ul>
+
+    <section class="section ow">
+      <div class="container container-center">
+        <h1>TECHNOLOGIES</h1>
+        <p>
+          I'M SLIGHTLY FAMILIAR WITH HTML5, CSS3, GIT, JAVASCRIPT, NODEJS & WEB HOSTING
+        </p>
+      </div>
     </section>
-    <hr>
-    <!--Comment in HTML-->
-    <footer>
-        <p>This is the footer</p>
-        <!-- don't use h1 or h2 in footer -->
-        <h3>good day</h3>
+
+    <section class="section">
+      <div class="container container-center">
+        <h1>PROJECTS</h1>
+        <p>
+          YOU MAY VIEW THE PROJECTS I'VE WORKED ON BY FOLLOWING THE LINK BELOW
+        </p>
+        <a class="link link-primary" href="/projects.html">SEE PROJECTS</a>
+      </div>
+    </section>
+
+    <section class="section ow">
+      <div class="container container-center">
+        <h1>BLOGS</h1>
+        <p>
+          YOU MAY VIEW A FEW DUMMY BLOGS IN MY BLOGS PAGE
+        </p>
+        <a class="link link-secondary" href="/blogs.html">READ BLOGS</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-header">SOCIAL MEDIA</div>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link" href="https://github.com/neogcamp/"> <img src="github-11-128.png"/> </a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://twitter.com/neogcamp"> <img src="twitter-128.png"/> </a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://www.linkedin.com/company/neog-camp/">
+            <img src="linkedin-6-128.png"/>
+          </a>
+        </li>
+      </ul>
     </footer>
-</body>
+  </body>
 </html>
