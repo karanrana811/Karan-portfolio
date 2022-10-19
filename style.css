@@ -10,13 +10,19 @@
 body {
   margin: 0px auto;
   min-height: 100%;
+  font-family: "Prompt", sans-serif;
+  letter-spacing: 2px;
+  font-weight:200;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
 }
 
 .main-container {
   width: 100%;
   text-align: center;
   margin: 0 auto;
-  
 }
 
 .nav-container {
@@ -24,19 +30,25 @@ body {
   text-align: center;
   width: 80%;
   margin: auto;
-  position: center fixed;
-  padding: 2rem;
+  padding: 0.5rem 2rem;
   border-bottom-right-radius: 1rem;
   border-bottom-left-radius: 1rem;
+  position:sticky;
+  top:0;
+
+  
 }
 
 .nav-brand {
   text-align: left;
   font-size:larger;
+  color: white;
+  font-weight:900;
 }
 
 .nav-links {
   text-align: right;
+  margin: 1rem auto 0;
 }
 
 ul li {
@@ -48,10 +60,15 @@ ul li {
 
 a {
   text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  font-weight:900;
 }
 
 .header-container {
-  margin: 1rem;
+  margin: 4rem auto;
 }
 
 .head-img {
@@ -62,11 +79,15 @@ a {
 }
 
 h1 {
-
+  letter-spacing: 5px;
 }
 
-.special-heading {
 
+
+.special-heading {
+  font-style:oblique;
+  letter-spacing: 1rem;
+  color: var(--primary-color);
 }
 
 .about-me {
@@ -107,7 +128,7 @@ h1 {
 
 
 h2 {
- 
+ letter-spacing: 5px;
 }
 
 h3 {
@@ -118,11 +139,17 @@ h3 {
 
 
 .projects-link {
-
+  background-color: #22D8BE;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  color: black;
 }
 
 .blogs-link {
-
+  background-color: var(--dark-color);
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  color: black;
 }
 
 .footer-container {
@@ -133,6 +160,7 @@ h3 {
   bottom: 0;
   border-top-right-radius: 1rem;
   border-top-left-radius: 1rem;
+  color: white;
 }
 
 .sm-logo {
