@@ -48,9 +48,10 @@ body {
 }
 
 .nav-links {
+  display:block;
   text-align: right;
-  display: block;
   margin: 1rem auto 0;
+  white-space:nowrap;
 }
 
 ul li {
@@ -86,13 +87,15 @@ h1 {
 
 .heading {
   margin: 5rem auto 2rem;
+  letter-spacing: 10px;
 }
 
 .special-heading {
-  font-style:oblique;
+  font-style:italic;
+  
   letter-spacing: 1rem;
   color: var(--primary-color);
-  /* display: inline; */
+  font-weight:bolder;
 }
 
 .about-me {
@@ -178,6 +181,7 @@ h3 {
 .social-media-list {
   padding: 0 0;
   margin: auto;
+  white-space: nowrap;
 }
 
 .primary-link {
@@ -185,6 +189,8 @@ h3 {
   padding: 0.5rem 1rem;
   border-radius: 1rem;
   color: black;
+  display: inline block;
+  white-space: nowrap;
 }
 
 .secondary-link {
@@ -192,9 +198,36 @@ h3 {
   padding: 0.5rem 1rem;
   border-radius: 1rem;
   color: black;
+  white-space: nowrap;
 }
 
 .project-list {
+  padding: 0;
   text-align: center;
-  
+}
+
+.li-container {
+  margin: 4rem auto;
+  text-align: center;
+  width: 70%;
+}
+
+.main-hr {
+  width: 80%;
+  height: 1px;
+  background-color: var(--light-color);
+  border-style:none;
+}
+
+.generic-hr {
+  width: 50%;
+  height: 1px;
+  background-color: var(--primary-color);
+  border-style:none;
+}
+
+p {
+  margin: 1rem;
+  padding: 1rem;
+  font-weight:500;
 }
