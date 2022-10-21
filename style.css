@@ -18,6 +18,7 @@ body {
   background-attachment: fixed;
   background-size:cover;
   text-align: center;
+  max-width: 100%;
 }
 
 .main-container {
@@ -29,29 +30,29 @@ body {
 .nav-container {
   background-color: var(--primary-color);
   text-align: center;
-  width: 80%;
+  max-width: 80%;
   margin: auto;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 1rem;
   border-bottom-right-radius: 1rem;
   border-bottom-left-radius: 1rem;
   position:sticky;
   top:0;
-  z-index:auto;
-  
 }
 
 .nav-brand {
   text-align: left;
   font-size:larger;
   color: white;
+  padding-left: 1rem;
   font-weight:900;
 }
 
 .nav-links {
   display:block;
   text-align: right;
-  margin: 1rem auto 0;
+  margin: 1rem 0 0 auto;
   white-space:nowrap;
+  width:fit-content;
 }
 
 ul li {
@@ -189,8 +190,8 @@ h3 {
   padding: 0.5rem 1rem;
   border-radius: 1rem;
   color: black;
-  display: inline block;
   white-space: nowrap;
+  margin: 1rem auto;
 }
 
 .secondary-link {
@@ -199,6 +200,7 @@ h3 {
   border-radius: 1rem;
   color: black;
   white-space: nowrap;
+  margin: 1rem auto;
 }
 
 .project-list {
