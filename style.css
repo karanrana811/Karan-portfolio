@@ -17,7 +17,7 @@ body {
   background-image: url("background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: 100vh;
   text-align: center;
   max-width: 100vw;
   color: white;
@@ -261,14 +261,6 @@ p {
 
   .sm-logo {
     width: 20px
-  }
-
-  html {
-    overflow: hidden;
-  }
-
-  body {
-    overflow-y: scroll;
   }
 
   p {
