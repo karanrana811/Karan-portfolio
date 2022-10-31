@@ -7,19 +7,21 @@
   --dark-color: #b7f4eb;
 }
 
+
 body {
   margin: 0px auto;
   min-height: 100%;
   font-family: "Prompt", sans-serif;
   letter-spacing: 2px;
-  font-weight:200;
+  font-weight: 200;
   background-image: url("background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size:cover;
+  background-size: cover;
   text-align: center;
-  max-width:100vw;
+  max-width: 100vw;
   color: white;
+
 }
 
 .main-container {
@@ -36,24 +38,24 @@ body {
   padding: 0.5rem 1rem;
   border-bottom-right-radius: 1rem;
   border-bottom-left-radius: 1rem;
-  position:sticky;
-  top:0;
+  position: sticky;
+  top: 0;
 }
 
 .nav-brand {
   text-align: left;
-  font-size:larger;
+  font-size: larger;
   color: white;
   padding-left: 1rem;
-  font-weight:900;
+  font-weight: 900;
 }
 
 .nav-links {
-  display:block;
+  display: block;
   text-align: right;
   margin: 1rem 0 0 auto;
-  white-space:nowrap;
-  width:fit-content;
+  white-space: nowrap;
+  width: fit-content;
 }
 
 
@@ -70,7 +72,7 @@ a {
 }
 
 a:hover {
-  font-weight:900;
+  font-weight: 900;
 }
 
 .header-container {
@@ -94,11 +96,11 @@ h1 {
 }
 
 .special-heading {
-  font-style:italic;
-  
+  font-style: italic;
+
   letter-spacing: 1rem;
   color: var(--primary-color);
-  font-weight:bolder;
+  font-weight: bolder;
 }
 
 .about-me {
@@ -106,7 +108,7 @@ h1 {
   margin: 1rem auto;
   width: 60%;
   padding: 2rem;
-  border-style:inset;
+  border-style: inset;
   border-radius: 1rem;
   color: black;
 }
@@ -116,7 +118,7 @@ h1 {
   margin: 1rem auto;
   width: 60%;
   padding: 2rem;
-  border-style:outset;
+  border-style: outset;
   border-radius: 1rem;
   color: black;
 
@@ -127,7 +129,7 @@ h1 {
   margin: 1rem auto;
   width: 60%;
   padding: 2rem;
-  border-style:inset;
+  border-style: inset;
   border-radius: 1rem;
   color: black;
 
@@ -146,7 +148,7 @@ h1 {
 
 
 h2 {
- letter-spacing: 5px;
+  letter-spacing: 5px;
 }
 
 h3 {
@@ -183,7 +185,7 @@ h3 {
 
 .sm-logo {
   margin: 1rem auto;
-  padding-right:1rem;
+  padding-right: 1rem;
   padding-left: 1rem;
   width: 30px;
 }
@@ -227,20 +229,20 @@ h3 {
   width: 80%;
   height: 1px;
   background-color: var(--light-color);
-  border-style:none;
+  border-style: none;
 }
 
 .generic-hr {
   width: 50%;
   height: 1px;
   background-color: var(--primary-color);
-  border-style:none;
+  border-style: none;
 }
 
 p {
   margin: 1rem;
   padding: 1rem;
-  font-weight:500;
+  font-weight: 500;
 }
 
 .code-links {
@@ -248,16 +250,37 @@ p {
   white-space: nowrap;
 }
 
-@media screen and (max-width: 499px) {
-  body{
-    font-size:2.5vw;
+@media screen and (max-width: 599px) {
+  body {
+    font-size: 2.5vw;
   }
+
   .head-img {
-    /* width: 50%; */
-    min-width:50%;
+    min-width: 50%;
   }
 
   .sm-logo {
-    width:20px
+    width: 20px
+  }
+
+  html {
+    overflow: hidden;
+  }
+
+  body {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  p {
+    padding: 0;
+  }
+
+  .nav-links li {
+    padding: 0.5rem;
+  }
+
+  h1, h2, small, p {
+    text-shadow: 1px 0.5px #b7f4eb80;
   }
 }
