@@ -205,6 +205,18 @@ h3 {
   margin: 1rem auto;
 }
 
+button {
+  font-family: 'Prompt', sans-serif;
+  letter-spacing: 2px;
+  font-size: large;
+  border: none;
+  font-weight: 700;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
 .secondary-link {
   background-color: var(--dark-color);
   padding: 0.5rem 1rem;
