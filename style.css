@@ -6,6 +6,9 @@
   --dark-color: #b7f4eb;
 }
 
+html {
+  width: 100%;
+}
 body {
   margin: 0px auto;
   min-height: 100%;
@@ -230,7 +233,7 @@ button:hover {
 }
 
 .li-container {
-  margin: 4rem auto;
+  margin: 2rem auto;
   text-align: center;
   width: 70%;
 }
@@ -250,7 +253,7 @@ button:hover {
 }
 
 p {
-  margin: auto;
+  margin: 1rem auto;
   padding: 1rem;
   font-weight: 500;
   width: 70%;
