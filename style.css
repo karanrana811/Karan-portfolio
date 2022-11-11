@@ -264,13 +264,15 @@ p {
   white-space: nowrap;
 }
 
-@media screen and (max-width: 499px) {
+@media screen and (max-width: 799px) {
   body {
     font-size: 2.5vw;
+    background: none;
+    background-color: rgb(0, 0, 0);
   }
 
   .head-img {
-    min-width: 50%;
+    min-width: 75%;
   }
 
   .sm-logo {
@@ -279,6 +281,7 @@ p {
 
   p {
     padding: 0;
+    width: 90%;
   }
 
   .nav-links li {
